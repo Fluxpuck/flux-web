@@ -1,7 +1,7 @@
 .main-content-front {
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 85vh;
 
     background: url('../assets/illustrations/undraw_world_re_768g.svg') no-repeat;
     background-position: right center;
@@ -20,15 +20,100 @@
     margin-left: 5vw;
 }
 
+#front-dots {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    font-size: 2em;
+    color: whitesmoke;
+    user-select: none;
+}
 
-
-
-.main-content-features {
-    height: 30em;
+.main-content-hype {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    height: 10em;
     background-color: #3f3d56;
 }
 
-.main-content-about {
-    height: 20em;
-    background-color: chocolate;
+.main-content-hype span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.main-content-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    padding: 40px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    padding: 20px;
+    gap: 4em;
+}
+
+.article-container:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: initial;
+}
+
+.feature-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.feature-image-container img {
+    max-height: 25em;
+}
+
+.feature-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 40em;
+    padding: 30px;
+}
+
+.feature-text-container span {
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    background-color: #202225;
+}
+
+.feature-text-container p {
+    max-width: 30em;
+}
+
+.main-content-invite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    height: 10em;
+    background-color: #3f3d56;
+}
+
+.main-content-invite span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: whitesmoke;
 }
