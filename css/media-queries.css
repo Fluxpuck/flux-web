@@ -31,7 +31,9 @@
         margin: 5px;
     }
 
-
+    #front-dots {
+        display: none;
+    }
 
 
 
@@ -103,9 +105,6 @@
         margin-bottom: 40px;
     }
 }
-
-/* Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px) {}
 
 /* Big boi Monitors */
 @media (min-width: 1281px) {
