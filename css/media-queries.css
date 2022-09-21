@@ -1,0 +1,115 @@
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .nav-bar {
+        margin: 10px 30px 10px 10px;
+    }
+
+    .nav-ital {
+        display: none;
+    }
+
+    .main-content {
+        overflow: hidden;
+        grid-gap: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .footer-section-links {
+        justify-content: space-evenly;
+        width: 80vw;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+
+    .footer-section-links a {
+        margin: 5px;
+    }
+
+
+
+
+
+
+
+    .main-content-front {
+        background-size: auto;
+        background-position-x: 0%;
+        align-items: flex-end;
+        height: 90vh;
+    }
+
+    .front-article-container {
+        width: 70vw;
+        margin-bottom: 50px;
+    }
+
+    .main-content-hype {
+        height: auto;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .main-content-features {
+        padding: 10px;
+    }
+
+    .article-container {
+        display: block;
+        padding: 10px;
+    }
+
+    .main-content-invite {
+        height: auto;
+        width: 100vw;
+        text-align: center;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .main-content-invite h1 {
+        max-width: 90vw;
+    }
+
+    .main-content-invite a {
+        display: none;
+    }
+
+
+
+
+}
+
+/* Tablets iPads (Portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #front-dots {
+        display: none;
+    }
+
+    .main-content-front {
+        background-size: auto;
+        background-position-x: 6em;
+        align-items: flex-end;
+        height: 60vh;
+    }
+
+    .front-article-container {
+        width: 70vw;
+        margin-bottom: 40px;
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Big boi Monitors */
+@media (min-width: 1281px) {
+    .front-article-container {
+        margin-left: 20%;
+    }
+}
