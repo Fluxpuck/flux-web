@@ -1,10 +1,17 @@
+:root {
+    --dark: #16213E;
+    --base: #0F3460;
+    --light: #533483;
+    --accent: #E94560
+}
+
 body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
 
-    background: #16213E;
+    background: var(--dark);
 }
 
 img {
@@ -13,7 +20,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+th {
     font-family: Roboto;
     font-size: 2em;
     color: whitesmoke;
@@ -22,7 +30,9 @@ h3 {
 
 span,
 a,
-p {
+p,
+tr,
+td {
     font-family: Roboto;
     font-weight: 300;
     color: #bbbbbb;
@@ -56,10 +66,6 @@ a {
     font-weight: bold;
     font-size: 2em;
 }
-
-#logo-img {}
-
-.nav-menu {}
 
 .nav-menu-items {
     display: flex;
@@ -95,7 +101,7 @@ a {
     white-space: nowrap;
     user-select: none;
 
-    background-color: #E94560;
+    background-color: var(--accent);
     border-radius: 10px;
 
     height: 48px;
@@ -110,17 +116,11 @@ a {
 }
 
 .btn-pink {
-    background-color: #E94560;
+    background-color: var(--accent);
 }
 
 .btn-blue {
-    background-color: #0F3460;
-}
-
-.btn-tutorials {
-    background-color: #E94560;
-    /* border: solid 2px #E94560;
-    background-color: transparent !important; */
+    background-color: var(--base);
 }
 
 .double-button-box {
@@ -139,6 +139,12 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
     background: #16213E;
+}
+
+.footer-bottom {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
 }
 
 .footer-section-logo {
@@ -186,30 +192,3 @@ a {
 .footer-section-links a:hover {
     text-decoration: underline;
 }
-
-.footer-article-left {}
-
-.footer-article-right {}
-
-
-
-
-
-
-
-
-
-
-/* 
-    "colour_pallet_url": "https://colorhunt.co/palette/16213e0f3460533483e94560",
-    "dark_color": "#16213E",
-    "base_color": "#0F3460",
-    "light_color": "#533483",
-    "accent_color": "#E94560",
-    "colourPallet": [
-        "#16213E",
-        "#0F3460",
-        "#533483",
-        "#E94560"
-    ]
- */

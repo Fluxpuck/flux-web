@@ -1,0 +1,41 @@
+.table-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-title {
+    margin-left: 10px;
+}
+
+.table-title h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.commandlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 50px 50px 40px;
+}
+
+.commandlist-titles {
+    font-size: 14px;
+}
+
+.command-item p {
+    color: #959595;
+}
+
+td,
+tr,
+th {
+    padding: 5px 10px 5px 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #273252;
+}
