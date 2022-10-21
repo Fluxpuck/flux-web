@@ -27,9 +27,9 @@
         </div>
         <div class="nav-menu">
             <nav class="nav-menu-items">
-                <a href="/commands.html" class="menu-item nav-active">Commands</a>
-                <a href="/tutorials.html" class="menu-item">Tutorials</a>
-                <a href="/community.html" class="nav-ital">Support Server!</a>
+                <a href="./commands.html" class="menu-item nav-active">Commands</a>
+                <a href="./tutorials.html" class="menu-item">Tutorials</a>
+                <a href="./community.html" class="nav-ital">Support Server!</a>
                 <!-- <select>
                     <option value="/profile">Profile</option>
                     <option value="/servers">Servers</option>
@@ -40,14 +40,125 @@
         </div>
     </header>
 
-    <main>
+    <main class="table-content">
+        <section class="commandlist-container">
+            <div class="table-title">
+                <h1>Commandlist</h1>
+                <p>List of bot commands</p>
+            </div>
+            <div class="commandlist-table">
+                <table>
+                    <tr class="commandlist-titles">
+                        <th>
+                            <p>Command</p>
+                        </th>
+                        <th>
+                            <p>Description</p>
+                        </th>
+                        <th>
+                            <p>Usage</p>
+                        </th>
+                    </tr>
 
+                    <tr class="commandlist-item setup" id="set-prefix">
+                        <td>
+                            <p>set-prefix</p>
+                        </td>
+                        <td>
+                            <p>Set or update the command prefix for this server.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/set-prefix [new prefix]</p>
+                        </td>
+                    </tr>
+
+                    <tr class="commandlist-item customcommands" id="commandlist">
+                        <td>
+                            <p>commandlist</p>
+                        </td>
+                        <td>
+                            <p>Get a list of all custom commands for this server</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/commandlist</p>
+                        </td>
+                    </tr>
+                    <tr class="commandlist-item customcommands" id="create-command">
+                        <td>
+                            <p>create-command</p>
+                        </td>
+                        <td>
+                            <p>Create a new custom command for this server.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/create-command</p>
+                        </td>
+                    </tr>
+                    <tr class="commandlist-item customcommands" id="remove-command">
+                        <td>
+                            <p>remove-command</p>
+                        </td>
+                        <td>
+                            <p>Remove a mentioned custom command from this server.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/remove-command [customcommand-name]</p>
+                        </td>
+                    </tr>
+                    <tr class="commandlist-item customcommands" id="update-command">
+                        <td>
+                            <p>update-command</p>
+                        </td>
+                        <td>
+                            <p>Change name, response or cooldown of the mentioned command.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/update-command [customcommand-name]</p>
+                        </td>
+                    </tr>
+
+                    <tr class="commandlist-item misc" id="help">
+                        <td>
+                            <p>help</p>
+                        </td>
+                        <td>
+                            <p>Get more information about the commands or individual commands.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/help [commandname]</p>
+                        </td>
+                    </tr>
+                    <tr class="commandlist-item misc" id="invite">
+                        <td>
+                            <p>invite</p>
+                        </td>
+                        <td>
+                            <p>Get the inventation link to invite the bot to your server.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/invite</p>
+                        </td>
+                    </tr>
+                    <tr class="commandlist-item misc" id="ping">
+                        <td>
+                            <p>ping</p>
+                        </td>
+                        <td>
+                            <p>Ping the bot to get Discord's Latency.</p>
+                        </td>
+                        <td class="command-item">
+                            <p>/ping</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer-content">
+    <footer class="footer-content footer-bottom">
         <section class="footer-section-logo">
-            <img src="/assets/fluxpuck/Fluxpuck_light.png" />
-            <span id="copyright">Build with ❤ by Fluxpuck © 2022 </span>
+            <img src="./assets/fluxpuck/Fluxpuck_light.png" />
+            <span id="copyright">Built with ❤ by Fluxpuck © 2022 </span>
             <span id="illustrations">Illustration by <a
                     href="https://icons8.com/illustrations/author/u7l2K4BCiAa9">Natasha Remarchuk</a>
                 from
@@ -56,15 +167,15 @@
         <section class="footer-section-links">
             <article class="footer-article-left">
                 <h2>Flux</h2>
-                <a href="/commands.html">Commands</a>
-                <a href="/tutorials.html">Tutorials</a>
-                <a href="/community.html">Support Server</a>
-                <a href="/invite.html">Invite</a>
+                <a href="./commands.html">Commands</a>
+                <a href="./tutorials.html">Tutorials</a>
+                <a href="./community.html">Support Server</a>
+                <a href="./invite.html">Invite</a>
             </article>
             <article class="footer-article-right">
                 <h2>Legal</h2>
-                <a href="/terms-and-conditions.pdf" target="_blank">Terms and Conditions</a>
-                <a href="/privacy-policy.pdf" target="_blank">Privacy Policy</a>
+                <a href="./legal/terms-and-conditions.pdf" target="_blank">Terms and Conditions</a>
+                <a href="./legal/privacy-policy.pdf" target="_blank">Privacy Policy</a>
                 <a href="mailto: support@fluxpuck.com" target="_blank">Contact</a>
             </article>
         </section>

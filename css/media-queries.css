@@ -35,9 +35,13 @@
         display: none;
     }
 
+    .footer-bottom {
+        position: relative;
+    }
 
 
 
+    /* Main Page */
 
     .main-content-front {
         background-size: auto;
@@ -83,7 +87,12 @@
     }
 
 
-
+    /* Commands Page */
+    .commandlist-container {
+        gap: 10px;
+        margin: 30px 30px 30px 20px;
+        max-width: 100vw;
+    }
 
 }
 
@@ -104,6 +113,7 @@
         width: 70vw;
         margin-bottom: 40px;
     }
+
 }
 
 /* Big boi Monitors */
